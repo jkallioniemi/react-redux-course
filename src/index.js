@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
 import YTSearch from 'youtube-api-search';
 import VideoList from './components/video_list';
+import ApiKeys from '../keys';
 
-const API_KEY = 'FILL_THIS_IN';
-
-
+const API_KEY = ApiKeys.youtubeApiKey;
 
 class App extends Component {
     constructor(props) {
